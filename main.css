@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(154, 26, 26);
+    width: 100%;
+    position: fixed;
+    padding: 20px 150px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 50px;
+
+}
+.navigation a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left:20px ;
+}
+.navigation a:hover{
+    color:white;
+    background-color: rgb(81, 22, 22);
+    align-items: center;
+    padding: 5px;
+}
+section{
+    padding: 10px 20px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/iamges/istockphoto-1408605259-612x612.png) no-repeat;
+    background-size: cover;
+    color: rgb(159 21 21);
+    background-attachment: fixed;
+}
+.main h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.main h3 {
+    font-size: large;
+    width: 50%;
+}
+.background{
+    margin-bottom: 370px;
+}
+.titlle{
+    display: flex;
+    justify-content: center;
+    color:rgb(159 21 21) ;
+    font-size:  50px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color:white;
+    width: 340px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.img{
+    display: flex;
+    height:100px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+ins{
+    text-decoration: none;
+}
+.info h3{
+    color:rgb(159 21 21) ;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+}
+.rent{
+    background-color: whitesmoke;
+}
+.rent .content{
+    margin-top: 30px;
+}
+.rent_card{
+    background-color: white;
+    border: 1px solid black;
+    min-height: 224px;
+    width: 368px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.6 ease;
+}
+.rent_card:hover{
+    transform: scale(1.1);
+}
+.rent_card:hover .rent_img{
+    opacity: 0.4;
+}
+.rent_img img{
+    width: 100%;
+}
+.rent_info{
+    padding: 10px;
+}
+.footer{
+    background-color: rgb(154, 26, 26);
+    color: black;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between ;
+}
+@media (max-width:1023px){
+    header{
+        padding: 6px 2px;
+    }
+    .navigation a {
+        padding-left: 10px;
+    }
+    .titlle{
+        font-size: 15px;
+    }
+
+}
